@@ -1,0 +1,40 @@
+type: code
+files:
+- name: main.js
+  visible: true
+  text: |-
+    function difference(a, b, c) {
+        // change it
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8395#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 4. Runtime error
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    33 2 1
+    Correct output:
+    30
+
+    Your code output:
+
+
+    Error:
+    /sandbox/main.js:14
+    difference(a, b, c)
+               ^
+
+    ReferenceError: a is not defined
+        at Interface.rl.on (/sandbox/main.js:14:12)
+        at Interface.emit (events.js:182:13)
+        at Socket.onend (readline.js:155:12)
+        at Socket.emit (events.js:187:15)
+        at endReadableNT (_stream_readable.js:1094:12)
+        at process._tickCallback (internal/process/next_tick.js:63:19)
+  time: "Wed, 31 May 2023 06:35:01 UTC"
+record: -1
+submission_language: javascript

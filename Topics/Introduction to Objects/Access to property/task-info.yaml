@@ -1,0 +1,19 @@
+type: code
+files:
+- name: main.js
+  visible: true
+  text: |-
+    let product = {
+      name: "Smart Clock",
+      price: 48.7
+    };
+
+    // write the code below
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8593#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 31 May 2023 06:56:03 UTC"
+record: -1
+submission_language: javascript
